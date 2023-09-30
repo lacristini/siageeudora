@@ -4,7 +4,7 @@ body, ul {
     padding: 0px;
 }
 #menu a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: sans-serif;
     font: 15px;
@@ -17,7 +17,7 @@ body, ul {
         font-size: 1.5rem;
     }
     #logo img {
-        height: 60px;
+        height: 80px;
     }
     #logo img:hover {
         box-shadow: 2px 2px 4px #000000;
@@ -26,12 +26,13 @@ body, ul {
     
     #header {
         box-sizing: border-box;
-        height: 70px;
+        height: 120px;
         padding: 1rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background: #cc5dab; 
+        background: #cc3983; 
+        box-shadow: 3px 3px 6px #e7e7e7;
     }
     #menu {
         display: flex;
@@ -42,3 +43,59 @@ body, ul {
         display: none;
     }
     /* Fim CSS estilo header */
+    /* Inicio estilo carousel */
+#carouselExampleInterval {
+    position: relative;
+    z-index: 10;
+    padding-top: 10px;
+    box-shadow: 3px 3px 6px #e7e7e7;
+}
+
+    /* Fim estilo carousel */
+    /* Inicio estilo Banner home  */
+    /* Para aplicar estilos na class > ultilize o ponto [.] antes do objeto*/
+    /* Para aplicar no ID > ultilize a hashtag [#] antes do objeto */
+.section-banner-home{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    padding: 50px;
+    background-color: #d19bc1;
+    box-shadow: 3px 3px 6px #e7e7e7;
+}
+.section-banner-home img {
+    max-height: 400px;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.section-banner-home .texto-banner{
+    margin-top: 30px;
+    font-size: 22px;
+}
+.section-banner-home .texto-banner h1 {
+font-size: 30px;
+width: 60%;
+font-weight: 500;
+padding-bottom: 20px;
+color: rgb(255, 255, 255);
+}
+.section-banner-home .texto-banner p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: rgb(167, 4, 80);
+}
+.section-banner-home .texto-banner a{
+    color: rgb(214, 165, 165);
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 4px 14px;
+    font-size: 15px;
+}
+.section-banner-home .texto-banner a:hover{
+    color: rgb(240, 34, 154);
+    text-shadow: 2px 2px 4px #eb7ec17a;
+    font-size: 18px;
+    font-weight: bold;
+}
+    /* Fim estilo Banner home  */
